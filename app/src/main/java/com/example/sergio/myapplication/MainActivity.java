@@ -51,9 +51,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Toast.makeText(context,"Invalid E-mail",
                     Toast.LENGTH_LONG).show();
         }else{
-            Intent intent = new Intent(context,Main2Activity.class);
+            Intent intent = new Intent(context,MenuActivity.class);
             String[] data = new String[]{textEmail.getText().toString(), textPassword.getText().toString()};
             intent.putExtra("data",data);
+            textEmail.setText("");
+            textPassword.setText("");
             startActivity(intent);
         }
     }

@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.sergio.myapplication.Main2Activity">
+    tools:context="com.example.sergio.myapplication.MenuActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,13 +40,15 @@
                     android:layout_height="115dp"
                     android:background="#ffffff"
                     android:src="@drawable/bag"
+                    android:id="@+id/cartButton"
                     android:padding="20dp"
-                    android:scaleType="fitCenter"/>
+                    android:scaleType="fitCenter" />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Cart"
+                    android:textColor="@color/colorShade3"
                     />
             </LinearLayout>
             <LinearLayout
@@ -60,6 +62,7 @@
                     android:layout_height="115dp"
                     android:background="#ffffff"
                     android:src="@drawable/bullets"
+                    android:id="@+id/shopButton"
                     android:padding="20dp"
                     android:scaleType="fitCenter" />
                 <TextView
@@ -67,6 +70,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Shop"
+                    android:textColor="@color/colorShade3"
                     />
             </LinearLayout>
 
@@ -87,6 +91,7 @@
                     android:layout_height="115dp"
                     android:background="#ffffff"
                     android:src="@drawable/sale"
+                    android:id="@+id/onSaleButton"
                     android:padding="20dp"
                     android:scaleType="fitCenter" />
                 <TextView
@@ -94,6 +99,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="On Sale"
+                    android:textColor="@color/colorShade3"
                     />
             </LinearLayout>
             <LinearLayout
@@ -107,6 +113,7 @@
                     android:layout_height="115dp"
                     android:background="#ffffff"
                     android:src="@drawable/history"
+                    android:id="@+id/historyButton"
                     android:padding="20dp"
                     android:scaleType="fitCenter" />
                 <TextView
@@ -114,6 +121,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="History"
+                    android:textColor="@color/colorShade3"
                     />
             </LinearLayout>
 
@@ -134,6 +142,7 @@
                     android:layout_height="115dp"
                     android:background="#ffffff"
                     android:src="@drawable/search"
+                    android:id="@+id/searchButton"
                     android:padding="20dp"
                     android:scaleType="fitCenter" />
                 <TextView
@@ -141,6 +150,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Search"
+                    android:textColor="@color/colorShade3"
                     />
             </LinearLayout>
             <LinearLayout
@@ -154,6 +164,7 @@
                     android:layout_height="115dp"
                     android:background="#ffffff"
                     android:src="@drawable/logout"
+                    android:id="@+id/logOutButton"
                     android:padding="20dp"
                     android:scaleType="fitCenter" />
                 <TextView
@@ -161,6 +172,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Log Out"
+                    android:textColor="@color/colorShade3"
                     />
             </LinearLayout>
 
