@@ -7,5 +7,7 @@
     <string name="welcome">Bienvenido</string>
     <string name="error1">Por favor, ingrese su E-mail.</string>
     <string name="error2">Por favor, ingrese su contraseña.</string>
+    <string name="warning1">No hay ítems en el carrito aún.</string>
+    <string name="search">Buscar...</string>
 
 </resources>

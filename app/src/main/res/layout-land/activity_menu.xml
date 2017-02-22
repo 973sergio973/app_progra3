@@ -25,10 +25,10 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_weight="0.5"
-                android:padding="10dp">
+                android:padding="5dp">
                 <ImageButton
                     android:layout_width="match_parent"
-                    android:layout_height="115dp"
+                    android:layout_height="100dp"
                     android:background="#ffffff"
                     android:src="@drawable/bag"
                     android:id="@+id/cartButton"
@@ -47,10 +47,10 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_weight="0.5"
-                android:padding="10dp">
+                android:padding="5dp">
                 <ImageButton
                     android:layout_width="match_parent"
-                    android:layout_height="115dp"
+                    android:layout_height="100dp"
                     android:background="#ffffff"
                     android:src="@drawable/bullets"
                     android:id="@+id/shopButton"
@@ -64,22 +64,15 @@
                     android:textColor="@color/colorShade3"
                     />
             </LinearLayout>
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_weight="0.5"
-                android:padding="10dp">
+                android:padding="5dp">
                 <ImageButton
                     android:layout_width="match_parent"
-                    android:layout_height="115dp"
+                    android:layout_height="100dp"
                     android:background="#ffffff"
                     android:src="@drawable/sale"
                     android:id="@+id/onSaleButton"
@@ -93,15 +86,24 @@
                     android:textColor="@color/colorShade3"
                     />
             </LinearLayout>
+            
+            
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_weight="0.5"
-                android:padding="10dp">
+                android:padding="5dp">
                 <ImageButton
                     android:layout_width="match_parent"
-                    android:layout_height="115dp"
+                    android:layout_height="100dp"
                     android:background="#ffffff"
                     android:src="@drawable/history"
                     android:id="@+id/historyButton"
@@ -115,22 +117,15 @@
                     android:textColor="@color/colorShade3"
                     />
             </LinearLayout>
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_weight="0.5"
-                android:padding="10dp">
+                android:padding="5dp">
                 <ImageButton
                     android:layout_width="match_parent"
-                    android:layout_height="115dp"
+                    android:layout_height="100dp"
                     android:background="#ffffff"
                     android:src="@drawable/search"
                     android:id="@+id/searchButton"
@@ -149,10 +144,10 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:layout_weight="0.5"
-                android:padding="10dp">
+                android:padding="5dp">
                 <ImageButton
                     android:layout_width="match_parent"
-                    android:layout_height="115dp"
+                    android:layout_height="100dp"
                     android:background="#ffffff"
                     android:src="@drawable/logout"
                     android:id="@+id/logOutButton"
