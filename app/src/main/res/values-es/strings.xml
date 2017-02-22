@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Franja de Gaza</string>
+    <string name="email">E-mail</string>
+    <string name="password">Contraseña</string>
+    <string name="login">ENTRAR</string>
+    <string name="signUp">Regístrese ahora.</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="error1">Por favor, ingrese su E-mail.</string>
+    <string name="error2">Por favor, ingrese su contraseña.</string>
+
+</resources>

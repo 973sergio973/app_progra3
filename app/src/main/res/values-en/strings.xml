@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gaza Strip</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="signUp">Not a member? Sign up now.</string>
+    <string name="welcome">Welcome</string>
+    <string name="error1">Please enter your E-mail.</string>
+    <string name="error2">Please enter your password.</string>
+
+</resources>
