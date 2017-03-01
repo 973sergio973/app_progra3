@@ -54,13 +54,16 @@
 
         <TextView
             android:text="@string/signUp"
+            android:background="#eeeeee"
             android:textColor="@color/colorShade4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:clickable="true"
             android:id="@+id/labelSignUp"
             android:layout_marginTop="5dp"
             android:gravity="center_horizontal"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            />
     </LinearLayout>
 
 </RelativeLayout>

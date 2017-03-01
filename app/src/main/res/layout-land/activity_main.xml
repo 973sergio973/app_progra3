@@ -43,7 +43,7 @@
 
         <Button
             android:text="@string/login"
-            android:textColor="@color/colorShade4"
+            android:textColor="@color/colorShade6"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="27dp"
@@ -59,7 +59,8 @@
             android:id="@+id/labelSignUp"
             android:layout_marginTop="5dp"
             android:gravity="center_horizontal"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:clickable="true"/>
     </LinearLayout>
 
 </RelativeLayout>
