@@ -3,6 +3,7 @@ package com.example.sergio.myapplication;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private EditText textPassword;
     private TextView labelSignUp;
     private Button buttonLogin;
-    private UserDatabase userDatabase;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,8 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         try{
             Intent intent = getIntent();
             Gson gson = new Gson();
-            userDatabase = gson.fromJson(intent.getStringExtra("DB"),UserDatabase.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
             Log.e("DATABASE", "Succesful :)");
         }catch (Exception e) {
 

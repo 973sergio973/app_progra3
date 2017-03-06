@@ -18,8 +18,6 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
 
     private Context context;
     private Activity activity;
-    private UserDatabase userDatabase;
-    private SQLiteDatabase sqLiteDatabase;
 
 
     private EditText textName, textSurname, textEmail, textPassword, textVerifyPassword;
@@ -71,13 +69,8 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
             Toast.makeText(context,"Password MUST be the same in both fields.",
                     Toast.LENGTH_LONG).show();*/
         }else{
-            userDatabase = new UserDatabase(context);
-            sqLiteDatabase = userDatabase.getWritableDatabase();
-            userDatabase.addUser(name,surname,email,pass,sqLiteDatabase);
-            userDatabase.close();
             Intent intent = new Intent(context, MainActivity.class);
             final Gson gson = new Gson();
-            intent.putExtra("DB", gson.toJson(userDatabase));
             startActivity(intent);
 
 
